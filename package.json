@@ -1,0 +1,41 @@
+{
+  "name": "scrollmap-navigation",
+  "description": "Navigation-panel header markers for scrollmap",
+  "repository": "https://github.com/asiloisad/pulsar-scrollmap-navigation",
+  "keywords": [
+    "scrollmap",
+    "navigation",
+    "headers",
+    "marker"
+  ],
+  "version": "0.0.0",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.100.0 <2.0.0"
+  },
+  "main": "./lib/main",
+  "consumedServices": {
+    "navigation-panel": {
+      "versions": {
+        "0.0.1": "consumeNaviService"
+      }
+    }
+  },
+  "providedServices": {
+    "scrollmap": {
+      "versions": {
+        "1.0.0": "provideScrollmap"
+      }
+    }
+  },
+  "configSchema": {
+    "maxDepth": {
+      "order": 1,
+      "type": "integer",
+      "title": "Max depth",
+      "description": "Maximum header depth to display. Zero means no limit.",
+      "minimum": 0,
+      "default": 0
+    }
+  }
+}

@@ -36,6 +36,14 @@
       "description": "Maximum header depth to display. Zero means no limit.",
       "minimum": 0,
       "default": 0
+    },
+    "threshold": {
+      "order": 2,
+      "type": "integer",
+      "title": "Threshold",
+      "description": "Hide markers if count exceeds this value. Zero means no limit.",
+      "minimum": 0,
+      "default": 0
     }
   }
 }

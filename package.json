@@ -1,6 +1,6 @@
 {
   "name": "scrollmap-navigation",
-  "description": "Navigation-panel header markers for scrollmap",
+  "description": "Show navigation headers on the scrollbar",
   "repository": "https://github.com/asiloisad/pulsar-scrollmap-navigation",
   "keywords": [
     "scrollmap",

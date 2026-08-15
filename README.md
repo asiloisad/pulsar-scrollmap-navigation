@@ -6,9 +6,9 @@ Show navigation headers on the scrollbar.
 
 To install `scrollmap-navigation` search for [scrollmap-navigation](https://web.pulsar-edit.dev/packages/scrollmap-navigation) in the Install pane of the Pulsar settings or run `ppm install scrollmap-navigation`. Alternatively, you can run `ppm install asiloisad/pulsar-scrollmap-navigation` to install a package directly from the GitHub repository.
 
-Layer package for [scrollmap](https://github.com/asiloisad/pulsar-scrollmap).
+Layer package for [scrollmap](https://github.com/asiloisad-pulsar/scrollmap).
 
-Requires [navigation-panel](https://github.com/asiloisad/pulsar-navigation-panel).
+Requires [navigation-panel](https://github.com/asiloisad-pulsar/navigation-panel).
 
 ## Contributing
 
